@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+gspread
+oauth2client
+prophet
+xgboost
+statsmodels
+plotly
+scikit-learn
+python-docx
