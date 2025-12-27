@@ -8,4 +8,5 @@ xgboost
 statsmodels
 plotly
 scikit-learn
+pytz
 python-docx
