@@ -336,7 +336,8 @@ if check_password():
                         fig_err.update_layout(height=350, margin=dict(l=0,r=0,t=0,b=0), hovermode="x unified", legend=dict(orientation="h", y=1.1))
                         st.plotly_chart(fig_err, use_container_width=True, key=str(uuid.uuid4()))
 
-                    st.success(f"Trạng thái: 🟢 Online | Đang dùng key.json")
+                    st.success(f"Trạng thái: 🟢 Online ")
                 else:
                     st.warning("Đang chờ dữ liệu...")
+
             time.sleep(UPDATE_INTERVAL)
